@@ -1,16 +1,47 @@
-# stateful_lab_class_activity_4
+# Interactive Counter – Flutter App
 
-A new Flutter project.
+A Flutter application demonstrating dynamic state management, user interaction, and responsive UI updates using a StatefulWidget.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Interactive counter display
+- Slider synced with counter value (0–100)
+- Increment (+1) and Decrement (-1) buttons
+- Reset button
+- Undo feature with history tracking
+- Dynamic text color feedback:
+  - Red when value is 0
+  - Green when value is greater than 50
+  - Black otherwise
+- Custom input field to set counter value
+- Input validation to prevent crashes
+- Limit handling with SnackBar alerts
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 Concepts Used
+
+- StatefulWidget lifecycle
+- setState() for UI updates
+- TextEditingController
+- Input validation using tryParse
+- List<int> history management
+- Material UI components
+
+---
+
+## 🛠️ Tech Stack
+
+- Flutter
+- Dart
+- Material Design
+
+---
+
+## ▶️ Run the Project
+
+```bash
+flutter pub get
+flutter run
